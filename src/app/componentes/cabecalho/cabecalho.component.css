@@ -21,11 +21,11 @@
 
 .main-logo {
   width: 14%;
-  border-radius: 100%;
-  max-width: 350px;
-  margin-bottom: 2rem;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
   border: #ffffff 2px solid;
-  margin-top: -130px;
+  margin-top: -150px;
   margin-left: 50px;
 }
 
@@ -39,7 +39,7 @@
 
 .sub {
   font-size: 18px;
-}	
+}
 
 .cabecalho p {
   font-size: 22px;

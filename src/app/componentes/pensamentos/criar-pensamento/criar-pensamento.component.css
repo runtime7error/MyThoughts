@@ -1,0 +1,165 @@
+.acoes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.botao {
+  margin: 5px;
+  margin-top: 70px;
+  width: 200px;
+}
+
+.criar-pensamentos {
+  padding: 2rem 0;
+}
+
+.criar-pensamentos form {
+  background: #C4EDFF;
+
+  border: none;
+  border-radius: 20px;
+
+  display: flex;
+  flex-direction: column;
+
+  padding: 2rem;
+}
+
+.criar-pensamentos form label {
+  color: #154580;
+  font-weight: bold;
+  margin: 0 0 1rem;
+}
+
+.criar-pensamentos form .input {
+  border: none;
+  height: 40px;
+  padding: 1rem 2rem;
+  border-radius: 20px;
+  margin: 0.5rem 0 2rem;
+}
+
+
+.criar-pensamentos form .textarea {
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 20px;
+  margin: 0.5rem 0 2rem;
+}
+
+.container-radio {
+  display: flex;
+  gap: 2.5rem;
+  flex-wrap: wrap;
+  align-self: center;
+}
+
+.modelos {
+  display: flex;
+  gap: 2.5rem;
+  border: 1px solid red;
+}
+
+.modelo {
+  background-color: #F8F9FE;
+  padding: 1rem;
+  max-width: 300px;
+  margin: 1rem 0 2rem;
+}
+
+.modelo .conteudo {
+  margin: 70px 0px 0px 80px;
+  word-wrap: break-word;
+}
+
+.modelo .autoria {
+  margin: 270px 0px 0px 220px;
+  word-wrap: break-word;
+}
+
+.radio {
+  margin: 0;
+}
+
+.modelo1 {
+  box-shadow: 8px 8px 0px #154580;
+  position: relative;
+  display: inline-block;
+}
+
+.modelo2 {
+  box-shadow: 8px 8px 0px #6BD1FF;
+  position: relative;
+  display: inline-block;
+}
+
+.modelo3 {
+  box-shadow: 8px 8px 0px #84EEC1;
+  position: relative;
+  display: inline-block;
+}
+
+input[type='radio'] {
+  display: none;
+}
+
+.radio-modelo label {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.custom-radio {
+  border: 1px solid #154580;
+  width: 30px;
+  height: 30px;
+  display: grid;
+  place-content: center;
+  border-radius: 50%;
+}
+
+.custom-radio,
+span {
+  transition: 0.5s ease;
+  color: #154580;
+}
+
+.custom-radio span {
+  content: '';
+  width: 18px;
+  height: 18px;
+  background: transparent;
+  border-radius: 50%;
+  display: inline-block;
+  align-content: center;
+  margin-left: 6px;
+  margin-top: 6px;
+}
+
+input[type='radio']:checked+.custom-radio {
+  border-color: #154580;
+}
+
+input[type='radio']:checked+.custom-radio span {
+  background: #154580;
+}
+
+.sobreposto {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.radius-container {
+  white-space: nowrap;
+  margin: 20px
+}
+
+.radius-container div {
+  display: inline-block;
+  align-content: center;
+  margin: 0 10px -10px 11rem;
+}
